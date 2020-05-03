@@ -1,5 +1,5 @@
 # Restaurant project
-A simple web application for movie fanatic
+A simple web application for Restaurant information
 
 ## Features
 -type the **name** or **category** of the restaurant in search bar can find related information
