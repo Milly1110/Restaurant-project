@@ -17,7 +17,9 @@
           地址：
         </span>
         {{restaurant.location}}
-        <a href="https://goo.gl/maps/V9mKwVJ4s5v" class="text-secondary" target="_blank">
+        {{!-- <a href="https://goo.gl/maps/V9mKwVJ4s5v" class="text-secondary" target="_blank"> --}}
+        {{!-- 依助教指導修改google map功能 --}}
+        <a href="https://www.google.com/maps/place/{{restaurant.location}}" class="text-secondary" target="_blank">
           <i class="fas fa-location-arrow pr-2 fa-2x"></i>
         </a>
       </p>
@@ -27,7 +29,11 @@
           <i class="fas fa-mobile-alt pr-2 fa-2x"></i>
           電話：
         </span>
-        {{restaurant.phone}}
+        {{!-- 依助教指導新增電話撥打功能 --}}
+        <a href="tel:+886-{{restaurant.phone}}">
+          {{restaurant.phone}}
+        </a>
+
       </p>
 
       <p class="mb-5">
